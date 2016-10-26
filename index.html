@@ -239,7 +239,7 @@ font-family: 'Orbitron', sans-serif;
         background: -webkit-linear-gradient(#eaeaea, #eaeaea);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-        letter-spacing: 4px;
+        letter-spacing: 3px;
 }
 
 
@@ -497,13 +497,32 @@ h1{
             color: #b1b1b1;
             margin:0;
         }
-       /* 
-        .yellow{background-color: #ffc000;}
-        .orange{background-color: #fc7f0c;}
-        .red{background-color: #8cd007;}
-        .grey{background-color: #474747;}
+       
+.set-text_head{
+  font-family: 'Kanit', sans-serif;
+    font-size: 21px;
+    background: -webkit-linear-gradient(#f5f5f5, #eae9e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
-*/
+}
+
+.set-text_po{
+      font-family: 'Kanit', sans-serif;
+    font-size: 21px;
+    background: -webkit-linear-gradient(#1e1e1e, #1e1e1e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    text-align: center;
+    width: 126px;
+   
+
+}
+.top_po{
+  margin-top: -59px;
+}
+       
         .service-box:hover .service-icon{
             opacity: 0;
             -webkit-transform: translateY(-110px) rotateX(90deg);
@@ -522,22 +541,22 @@ h1{
         }
 
 
-@media screen and (min-width: 59.6875em){
-body:before {
-    background-color:rgba(255, 255, 255, 0) !important;
-        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    content: "";
-    display: block;
-    height: 100%;
-    min-height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 29.4118%;
-    z-index: -1 !important;
-}
+.navbar-1 {
+     font-family: 'Kanit', sans-serif;
+    font-size: 16px;
 
 }
+
+.set-text_ableft{
+    font-family: 'Kanit', sans-serif;
+     font-size: 16px;
+        background: -webkit-linear-gradient(#eaeaea, #eaeaea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        letter-spacing: 3px;
+}
+
+
 
 
 </style>
@@ -553,7 +572,7 @@ body:before {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#myPage">ROOTCMD</a>
+      <a class="navbar-brand" href="#myPage">ATSADET</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -584,13 +603,11 @@ body:before {
 <div class="container">
 
 <div class="col-sm-6">
-  <div class="rootcmd" data-title="ROOTCMD"></div>
-  <!-- <p class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets!</p> -->
+  <div class="rootcmd" data-title="ATSADET"></div>
   </div>
 <div class="col-sm-6">
-<p class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets
-Lorem ipsum we'll play you some music.<br> Remember to book your tickets
-Lorem ipsum we'll play you some music.<br> Remember to book your tickets
+<p class="text-center set-text_head">ชอบการพัฒนาเว็บไซต์ และสร้างธีมในรูปแบบใหม่ๆ
+@atsadet hansamer
 
 </p>
   
@@ -607,49 +624,48 @@ Lorem ipsum we'll play you some music.<br> Remember to book your tickets
 <!-- Container (TOUR Section) -->
 <div id="tour" class="bg-2">
   <div class="container">
-  <button type="button" class="btn btn-warning">สอนการใช้งาน </button>
+  <button type="button" class="btn btn-warning">Portfolio</button>
 
-    <div class="row">
-   
-      <div class="col-sm-3">
-      
-        <img src="images/bwer.jpg" class="img-responsive  " alt="img-1" width="100%">
-        <a href=""> <div class="txetlink text-center">BOWER</div></a>
-
-
-      </div>
-        <div class="col-sm-3">
-      
-        <img src="images/scss1.jpg" class="img-responsive  " alt="img-1" width="100%">
-        <a href=""> <div class="txetlink text-center">BOWER</div></a>
+    <div class="row top_po">
+          <div class=" col-sm-offset-3 col-sm-8">
+              <div class="col-sm-4">
+              
+                <img src="images/codepen.jpg" class="img-responsive  " alt="img-1" width="100%">
+                <a href=""> <div class="txetlink text-center">BOWER</div></a>
 
 
-      </div>
-        <div class="col-sm-3">
-      
-        <img src="images/npm.jpg" class="img-responsive " alt="img-1" width="100%">
-        <a href=""> <div class="txetlink text-center">BOWER</div></a>
+              </div>
+                <div class="col-sm-4">
+              
+                <img src="images/git.jpg" class="img-responsive  " alt="img-1" width="100%">
+                <a href=""> <div class="txetlink text-center">BOWER</div></a>
 
 
-      </div>
-        <div class="col-sm-3">
-      
-        <img src="images/git.jpg" class="img-responsive  " alt="img-1" width="100%">
-        <a href=""> <div class="txetlink text-center">BOWER</div></a>
-
-
-      </div>
-   
-
-
+              </div>
+         </div>
        
     </div>
+    <hr>
+
+<div class="col-sm-offset-5 col-sm-6 set-text_po">ผลงาน </div>
+<div class=" col-sm-offset-3 col-sm-6 "><br> 
+             <li>
+             <a href="#">Merchandise</a> <-->
+             <a href="#">Merchandise</a> <-->
+              <a href="#">Merchandise</a>
+              </li>
+            
+
+ </div>
+
 </div>
+
 </div>
+
 <div id="contact" class="container"> 
 <br><br>
 <div class="col-sm-offset-4 col-sm-6 "> 
- <button type="button" class="btn btn-info">สมุดบันทึก ออนไลน์</button>
+ <button type="button" class="btn btn-info">Skill</button>
  </div>
 
 <div class="row">
@@ -743,9 +759,7 @@ Lorem ipsum we'll play you some music.<br> Remember to book your tickets
             </div>
         </div>
 
-  
-
-      
+       
     </div>
 
 
@@ -755,14 +769,15 @@ Lorem ipsum we'll play you some music.<br> Remember to book your tickets
 
 
 <footer class="text-center">
-  <!-- <a class="up-arrow text-center" href="#myPage">
+  <a class="up-arrow text-center" href="#myPage">
     <span class="glyphicon glyphicon-chevron-up"></span>
-  </a> -->
+  </a>
   <br>
   <div class="row">
-<div class="col-sm-6 set-text_foot"> 
+<div class="col-sm-6 set-text_ableft "> 
 
-pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure it is pleasure, but because those who do not know how to pursue pleasure it is pleasure, but because those who do not know how to pursue pleasure  
+    “สิ่งที่วิเศษสุดสำหรับการเรียนรู้ คือไม่มีใครสามารถเอามันไปจากคุณได้.” 
+       -บี.บี. คิง- (นักแต่งเพลง  ชาวอเมริกัน) 
 
 </div> 
 <div class="col-sm-6">
@@ -782,10 +797,6 @@ pleasure itself, because it is pleasure, but because those who do not know how t
 </div>
  <br> 
 </footer>
-
-
-
-
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -885,9 +896,6 @@ $(document).ready(function(){
 
 })(jQuery); // End of use strict
 </script>
-
-
-
 
 
 
