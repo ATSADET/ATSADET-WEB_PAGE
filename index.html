@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    
 </head>
 <style>
 @import url('https://fonts.googleapis.com/css?family=Kanit');
@@ -20,7 +20,7 @@ body {
     background: #1e1e1e;
 }
 
-.rootcmd {
+.Atsadet {
     font-family: 'Itim', cursive;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5vw;
@@ -37,7 +37,7 @@ body {
     color: rgba(0, 0, 0, 0.5);
 }
 
-.rootcmd::before {
+.Atsadet::before {
     content: '';
     position: absolute;
     top: 0;
@@ -52,16 +52,16 @@ body {
     transition: box-shadow .5s ease, transform .2s ease;
     transition: box-shadow .5s ease, transform .2s ease, -webkit-transform .2s ease;
     will-change: transform;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgb(247, 82, 3);
     -webkit-transform: translateY(calc(var(--ty, 0) * 1px)) rotateX(calc(var(--rx, 0) * 1deg)) rotateY(calc(var(--ry, 0) * 1deg)) translateZ(calc(var(--tz, -12) * 1px));
     transform: translateY(calc(var(--ty, 0) * 1px)) rotateX(calc(var(--rx, 0) * 1deg)) rotateY(calc(var(--ry, 0) * 1deg)) translateZ(calc(var(--tz, -12) * 1px));
 }
 
-.rootcmd:hover::before {
+.Atsadet:hover::before {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-.rootcmd::after {
+.Atsadet::after {
     position: relative;
     display: inline-block;
     content: attr(data-title);
@@ -75,7 +75,7 @@ body {
     transform: translateY(calc(var(--ty, 0) * 1px)) rotateX(calc(var(--rx, 0) * 1deg)) rotateY(calc(var(--ry, 0) * 1deg));
 }
 
-.rootcmd {
+.Atsadet {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -208,6 +208,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 3px;
+
 }
 
 .set-winget {
@@ -230,9 +231,50 @@ p {
     color: # !important;
 }
 
-a {
+.text-center>a{
+      font-family: 'Kanit', sans-serif;
+    font-size: 14px;
     text-decoration: none !important;
+    color: #000 !important;
 }
+
+
+a:hover {
+    text-decoration: none !important;
+    color: green !important;
+}
+
+
+.j{
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-decoration: none !important;
+    color: #fff !important;  
+   
+
+}
+.j>a{ 
+    font-family: 'Kanit', sans-serif;
+    font-size: 12px;
+    text-decoration: none !important;
+    color: #000 !important;    
+}
+
+
+
+li{
+        list-style: none !important;
+}
+.d-lond{
+    border: 2px solid #a1e420;
+    
+    padding: 3px;
+    height: 34px;
+    border-radius: 8px;
+}
+
+
 
 .container {
     padding: 80px 120px;
@@ -415,7 +457,7 @@ textarea {
 
 .navbar-default.affix {
     border-bottom: 1px solid #98d040 !important;
-    background-color: #333;
+   background-color: #102314;
     padding: 15px;
 }
 
@@ -552,6 +594,7 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 3px;
+
 }
 
 .set-text_skill {
@@ -562,6 +605,9 @@ h1 {
     -webkit-text-fill-color: transparent;
     letter-spacing: 3px;
 }
+
+
+
 </style>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -577,20 +623,12 @@ h1 {
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#myPage">INDEX</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
+                   
+                    <li><a href="#myPage">PORTFOLIO</a></li>
                     <li><a href="#Portfolio">SKILL</a></li>
                     <li><a href="#contact">CONTACT</a></li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
-          <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Merchandise</a></li>
-                            <li><a href="#">Extras</a></li>
-                            <li><a href="#">Media</a></li>
-                        </ul>
-                    </li>
-                    <li></li>
+
+                 
                 </ul>
             </div>
         </div>
@@ -602,7 +640,7 @@ h1 {
     <div id="home" class="bg-1">
         <div class="container">
             <div class="col-sm-6">
-                <div class="rootcmd" data-title="ATSADET"></div>
+                <div class="Atsadet" data-title="ATSADET"></div>
             </div>
             <div class="col-sm-6">
                 <p class="text-center set-text_head">ชอบการพัฒนาเว็บไซต์ และสร้างธีมในรูปแบบใหม่ๆ @atsadet hansamer
@@ -624,29 +662,30 @@ h1 {
             <div class="row top_po">
                 <div class=" col-sm-offset-3 col-sm-8">
                     <div class="col-sm-4">
-                        <img src="images/codepen.jpg" class="img-responsive  " alt="img-1" width="100%">
-                        <a href="">
-                            <div class="txetlink text-center">BOWER</div>
+                       <a href="https://codepen.io/Atsadet/" target="_blank">
+                        <img src="https://lh3.googleusercontent.com/-pKgICGPzBV0/WBJHcxcRFXI/AAAAAAAAASc/ZiyluwfY4usJ7AaYK7Tc62l7PK_ThE7CQCLcB/h120/codepen.jpg" class="img-responsive  " alt="img-1" width="100%">
+                            <div class="txetlink text-center"><a href="https://codepen.io/Atsadet/" target="_blank">Codepen</a></div>
                         </a>
                     </div>
                     <div class="col-sm-4">
-                        <img src="images/git.jpg" class="img-responsive  " alt="img-1" width="100%">
-                        <a href="">
-                            <div class="txetlink text-center">BOWER</div>
+                      <a href="https://github.com/ATSADET" target="_blank">
+                        <img src="https://lh3.googleusercontent.com/-dzzbQOsPTMQ/WBJHdHTzeBI/AAAAAAAAASk/lZ6UtpLYYFMn7OYcSGYvUjuevcJhUpvJQCLcB/h120/git.jpg" class="img-responsive  " alt="img-1" width="100%">
+              
+                            <div class="txetlink text-center"><a>GitHub</a></div>
                         </a>
                     </div>
                 </div>
             </div>
             <hr>
             <div class="col-sm-offset-5 col-sm-6 set-text_po">ผลงาน </div>
-            <div class=" col-sm-offset-3 col-sm-6 ">
+            <div class=" col-sm-offset-2 col-sm-9 ">
                 <br>
-                <li>
-                    <a href="#">Merchandise</a>
-                    <-->
-                        <a href="#">Merchandise</a>
-                        <-->
-                            <a href="#">Merchandise</a>
+                <li class="j">
+                    <a href="http://www.vaninter.com/" target="_blank">WWW.VANINTER.COM</a>
+                    -
+                        <a href="http://www.rakphrae.com/" target="_blank">WWW.RAKPHRAE.COM</a>
+                        -
+                            <a href="https://www.wehavefund.com/" target="_blank">WWW.WEHAVEFUND.COM</a>
                 </li>
             </div>
         </div>
@@ -668,7 +707,7 @@ h1 {
                     </div>
                     <div class="service-content">
                         <h3>HTML5</h3>
-                        <p class="text-1 "> หรือชื่อเต็มๆ ก็คือ Hypertext Markup Language เป็นภาษาประเภท Markup ที่ออกแบบมาเพื่อใช้ในการสร้างเว็บเพจ มีโครงสร้างการเขียนโดยอาศัยตัวกำกับ (Tag) ควบคุมการแสดงผลข้อความ รูปภาพ เสียง อื่นๆ ที่สามารถเรียกดูผ่านทางเว็บเบราว์เซอร์ได้ แต่ละ Tag สามารถระบุหรือควบคุมการแสดงผลของเว็บ ให้เป็นไปตามที่ผู้ออกแบบ</p>
+                        <p class="text-1 "> Hypertext Markup Language เป็นภาษาประเภท Markup ที่ออกแบบมาเพื่อใช้ในการสร้างเว็บเพจ มีโครงสร้างการเขียนโดยอาศัยตัวกำกับ (Tag) ควบคุมการแสดงผลข้อความ รูปภาพ เสียง อื่นๆ ที่สามารถเรียกดูผ่านทางเว็บเบราว์เซอร์ได้ แต่ละ Tag สามารถระบุหรือควบคุมการแสดงผลของเว็บ ให้เป็นไปตามที่ผู้ออกแบบ</p>
                     </div>
                 </div>
             </div>
@@ -751,7 +790,7 @@ h1 {
             </div>
         </div>
     </div>
-    <footer class="text-center">
+    <footer id="contact" class="text-center">
         <a class="up-arrow text-center" href="#myPage">
             <span class="glyphicon glyphicon-chevron-up"></span>
         </a>
@@ -760,20 +799,26 @@ h1 {
             <div class="col-sm-6 set-text_ableft ">
                 “สิ่งที่วิเศษสุดสำหรับการเรียนรู้ คือไม่มีใครสามารถเอามันไปจากคุณได้.” -บี.บี. คิง- (นักแต่งเพลง ชาวอเมริกัน)
                 <hr>
-                <p>โค้ดสำหรับนักพัฒนา</p>
-                <a href="#">
-                    <p>ดาวน์โหลดฟรี! </p>
+                <p>โค้ดสำหรับนักพัฒนา </p>
+                <a href="https://github.com/ATSADET/ATSADET-WEB_PAGE" target="_blank">
+                  <p class="d-lond">  ดาวน์โหลดฟรี!</p>
                 </a>
+  
+
             </div>
             <div class="col-sm-6">
                 <div class="col-sm-10 set-text_foot">
-                    <p class="pull-right set-text_about"><b>Front-end & WordPress Developer </b>
+                    <p class="pull-right set-text_about "><b>Front-end & WordPress Developer </b>
                         <br> ออกแบบและพัฒนาธีม WordPress
-                        <br> รักในการใช้เทคโนโลยีใหม่ๆอย่างสนุก
+                        <br> รักในการใช้เทคโนโลยีใหม่ๆอย่างสนุก<br>
+                        Atsadet.ha@gmail.com
+                        <br>
+                               lineID:100200700
                     </p>
+                       
                 </div>
                 <div class="col-sm-offset-10 col-sm-2">
-                    <img src="images/a.jpg" class="set-img" width="100" height="100">
+                    <img src="https://lh3.googleusercontent.com/-3_0Tu27pqDc/WBJHdELdDrI/AAAAAAAAASg/gLiS-7pMz3Uxcrtyyhe2sLUdRLp762l3ACLcB/h120/a.jpg" class="set-img" width="100" height="100">
                 </div>
             </div>
         </div>
@@ -784,7 +829,7 @@ h1 {
     <script>
     'use strict';
     var docStyle = document.documentElement.style;
-    var aElem = document.querySelector('.rootcmd');
+    var aElem = document.querySelector('.Atsadet');
     aElem.onmousemove = function(e) {
         var boundingClientRect = aElem.getBoundingClientRect();
         var x = e.clientX - boundingClientRect.left;
@@ -804,7 +849,7 @@ h1 {
     aElem.onmousedown = function(e) {
         docStyle.setProperty('--tz', '-25');
     };
-    document.rootcmd.onmouseup = function(e) {
+    document.Atsadet.onmouseup = function(e) {
         docStyle.setProperty('--tz', '-12');
     };
     </script>
