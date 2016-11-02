@@ -1,5 +1,6 @@
-# @ATSADET WEB_PAGE
-Web Development
-/พัฒนาเว็บไซต์
-/สร้างธีมWordPress
-/เป้าหมาย พัฒนาธีมแนว Parallax Scrolling
+# @ 2 ธีม  
+1.index.html คือรูปแบบ parallax style
+2.vdobanner.html คือรูปแบบ vdo
+
+-----------------------------------------
+
